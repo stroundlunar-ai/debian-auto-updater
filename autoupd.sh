@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "AutoUpdater"
+sudo apt update
+sudo apt upgrade -y
+sudo apt dist-upgrade -y
+sudo apt auto-remove -y
+sudo apt autoclean -y
+sudo apt clean -y
+sudo apt autopurge -y
+echo "Ran succsessfuly. Exiting..."

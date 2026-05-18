@@ -1,0 +1,11 @@
+[Unit]
+Description=Debian Auto-Updating Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/autoupd/on-boot.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
