@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/autoupd/autoupd.sh
+ExecStart=/usr/bin/autoupd
 Restart=on-failure
 
 [Install]
